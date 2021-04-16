@@ -1,4 +1,4 @@
-FROM python:3.6 as builder
+FROM python:3.7-slim-buster as builder
 
 WORKDIR /app
 
